@@ -8,6 +8,7 @@ def call(){
   
   	stage('Compile') {
             sh './mvnw clean compile -e'
+            sh 'exit 1'
     }
     stage('Test') {
         sh './mvnw clean test -e'

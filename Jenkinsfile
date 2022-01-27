@@ -27,15 +27,4 @@ pipeline {
 			}
 		}
 	}
-
-	post {
-		success {
-			slackSend color: 'good', message: 'success!'
-		}
-		
-		failure {
-			slackSend color: 'danger', message: "Ejecución fallida en stage ${STAGE}"
-			error "Ejecución fallida en stage ${STAGE}"
-		}
-	}
 }

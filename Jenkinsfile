@@ -1,3 +1,3 @@
-library 'pipeline-devops' _
+library 'pipeline-devops'
 
 ejecucion()

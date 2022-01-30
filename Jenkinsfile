@@ -1,4 +1,4 @@
-@library('pipeline-devops')
+@Library('pipeline-devops')
 
 
 ejecucion()
